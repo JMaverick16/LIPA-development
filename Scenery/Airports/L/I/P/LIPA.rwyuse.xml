@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rwyuse> <!-- Times are in UTC -->
+  <com> <!-- Commercial traffic -->
+    <wind tail="1"
+          cross="1" />
+    <time start = "00:00"
+          end   = "24:00"
+          schedule = "always"/>
+  </com> 
+  <gen>  <!-- General Aviation traffic -->
+    <wind tail="1"
+          cross="1" />
+    <time start = "00:00"
+          end   = "24:00"
+          schedule = "always"/>
+  </gen> 
+  <mil>  <!-- Military Traffic -->
+    <wind tail="1"
+          cross="1" />
+    <time start = "07:30"
+          end   = "18:00"
+          schedule = "always"/>
+  </mil> 
+
+  <!-- 'always' schedule -->
+  <schedule name="always">
+    <takeoff>05, 23</takeoff>
+    <landing>05, 23</landing>
+  </schedule>
+</rwyuse>
